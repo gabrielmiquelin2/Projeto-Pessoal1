@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container"><nav>
+      <ul>
+           <li>
+             <a href="index.html">Sobre mim</a>
+           </li>
+           <li>
+             <a href="contato.html">Contato</a>
+           </li>
+           
+      </ul>
+  </nav>
+
+  <header class="center">
+    <div">
+        <img src="img/Gabriel.jpeg" >
+    </div>
+    <h1>Gabriel Miquelin</h1>
+    <h2>Estudante de Desenvolvimento de Software</h2>
+  </header>
+     
+      <form class="contato-form" action="https://formsubmit.co/seuemail@gmail.com" method="POST">
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" obrigatório>
+        <label for="nessage">Mensagem</label>
+        <input type="text" name="message" id="message" obrigatório>
+        <input type="hidden" name="_next" value="https://127.0.0.1:5500/thanks.html">
+        <button type="submit">Enviar</button>
+      </form>
+    
+    
+    </div>
+  
+</body>
+</html>
